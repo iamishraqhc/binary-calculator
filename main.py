@@ -19,9 +19,9 @@ def clear_display(curr_input, curr_display):
 window = tk.Tk()
 
 content = tk.Frame(master=window)
-content.grid(row=0, colunm=0)
+content.grid(row=0, column=0)
 
-label = tk.label(master=content, borderwidth=1, text='Binary Calculator')
+label = tk.Label(master=content, borderwidth=1, text='Binary Calculator')
 label.grid(row=0, column=0, columnspan=4, pady=20)
 
 frame = tk.Frame(master=content, relief=tk.RAISED, borderwidth=1)
