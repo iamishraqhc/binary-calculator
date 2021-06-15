@@ -101,7 +101,7 @@ btn.pack()
 
 frame = tk.Frame(master=content, borderwidth=1)
 frame.grid(row=4, column=0)
-btn = tk.Button(master=frame, text='X', command=lambda: clear_display(user_input, user_display))
+btn = tk.Button(master=frame, text='AC', command=lambda: clear_display(user_input, user_display))
 btn.pack()
 
 frame = tk.Frame(master=content)
